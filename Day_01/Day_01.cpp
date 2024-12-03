@@ -4,7 +4,7 @@
 
 #include "Day_01.h"
 
-void Day_01::Run()
+void Day_01::Run() const
 {
     std::pair<std::vector<int>, std::vector<int>> data = ReadData(DataFile);
     //std::pair<std::vector<int>, std::vector<int>> data = ReadData(DataTestFile);

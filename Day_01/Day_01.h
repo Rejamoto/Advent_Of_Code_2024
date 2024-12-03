@@ -17,7 +17,7 @@ public:
     Day_01 () = default;
     ~Day_01 () = default;
 
-    void Run();
+    void Run() const;
 
 private:
     static void Console_WL(const std::string& str) { std::cout << str << std::endl; }
