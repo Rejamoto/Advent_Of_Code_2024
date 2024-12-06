@@ -134,7 +134,6 @@ std::vector<std::vector<int> > Day_02::ReadData(const std::string &path)
     return data;
 }
 
-
 std::string Day_02::TrimString(const std::string &str, const std::string& whitespace)
 {
     const size_t strBeginIndex = str.find_first_not_of(whitespace);

@@ -36,7 +36,7 @@ void Day_03::Solution_2(std::vector<std::tuple<int, int, bool>> &data)
         total += std::get<0>(mul) * std::get<1>(mul);
     }
 
-    std::cout << "Solution_1: " << total << std::endl;
+    std::cout << "Solution_2: " << total << std::endl;
 }
 
 std::vector<std::tuple<int, int, bool>> Day_03::ReadData(const std::string &path)
